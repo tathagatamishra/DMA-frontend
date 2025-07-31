@@ -1,0 +1,19 @@
+.slick-dots {
+  bottom: 8px;
+  /* Adjust the position of the dots */
+}
+
+.slick-dots li {
+  /* Adjust the size and spacing of individual dots */
+  margin: 0 -3.5px;
+  /* Adjust the horizontal spacing between dots */
+}
+
+.slick-slide:focus {
+  outline: none;
+}
+
+/* .slick-track {
+  display: flex;
+  gap: 10px;
+} */

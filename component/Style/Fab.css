@@ -1,0 +1,66 @@
+.fabStyle {
+    transform: translateX(0px);
+    filter: opacity(100%);
+    scale: 100%;
+    transition: 300ms;
+    animation-name: anim;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+}
+
+.fab-delay1 {
+    animation-duration: 500ms;
+}
+
+.fab-delay2 {
+    animation-duration: 800ms;
+}
+
+.fab-delay3 {
+    animation-duration: 1100ms;
+}
+
+@keyframes anim {
+    from {
+        scale: 140%;
+        filter: opacity(0%);
+        transform: translateX(40px);
+    }
+
+    to {
+        scale: 100%;
+        filter: opacity(100%);
+        transform: translateX(0px)
+    }
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-in {
+    animation: slideIn 0.5s ease-out;
+  }
+
+
+  @keyframes slideInRightMobile {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-in-right-mobile {
+    animation: slideInRightMobile 0.3s ease-out forwards;
+  }

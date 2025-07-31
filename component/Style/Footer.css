@@ -1,0 +1,19 @@
+.subscribeInput {
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+    background-color: #f6f6f8;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 200ms;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.subscribeInput:focus {
+    outline: none;
+}
